@@ -208,5 +208,35 @@ footer .container {
         padding-bottom: 0px;
         padding-right: 20px;
     }
+
+    #nuestros-programas .animales {
+        display: flex;
+        justify-content: center;
+    }
     
+    #nuestros-programas p {
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    #nuestros-programas h3 {
+        margin-top: 0;
+    }
+
+    #nuestros-programas .carta {
+        padding: 15px;
+    }
+
+    #final h2 {
+        font-size: 5em;
+    }
+
+    #final button {
+        font-size: 2em;
+
+    }
+
+    footer .container {
+        justify-content: flex-end;
+    }
 }
