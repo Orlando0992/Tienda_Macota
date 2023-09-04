@@ -100,38 +100,78 @@ header a:hover {
     bottom:50px;
 }
 
+
+
+#productos .container{
+    display: flex;
+    justify-content: space-around;
+}
+
+#productos img {
+    margin: 10px;
+    border-radius: 15px;
+    width: auto;
+    height: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #somos-proya .container {
     text-align: center;
     padding: 50px 12px;
 }
 
 
-#nuestros-programas {
-    background-color: black;
+#te-ayudamos {
+    background-color: silver;
     color: white;
     text-align: center;
 }
 
-#nuestros-programas .container {
+#te-ayudamos .container {
     padding: 50px 12px;
-
 }
 
-#nuestros-programas h2 {
+#te-ayudamos h2 {
     margin-top: 0px;
     font-size: 3em;
+    color: black;
 }
 
-#nuestros-programas p {
-    display: none;
+#te-ayudamos h3 {
+    font-weight: bold;
+    color: white;
 }
 
-#nuestros-programas .carta {
+#te-ayudamos .carta {
     background-position: center center;
     background-size: cover;
     padding: 50px 0px;
-    margin: 20px;
+    margin: 20px 20px;
     border-radius: 15px;
+    height: 350px;
+
+}
+
+#te-ayudamos p {
+    font-weight: bold ;
+    margin-top: 310px;
+    color: black;
 }
 
 .carta:first-child {
@@ -140,7 +180,7 @@ header a:hover {
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("/assets/img/Perro.png");
+    ,url("/assets/img/parasitario-perro.jpg");
 }
 
 .carta:nth-child(2) {
@@ -149,7 +189,7 @@ header a:hover {
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("/assets/img/Gato-notebook.png");
+    ,url("/assets/img/Alimento-perro.jpg");
 }
 
 .carta:nth-child(3) {
@@ -158,9 +198,8 @@ header a:hover {
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("/assets/img/conejo.png");
+    ,url("/assets/img/Alimento-gato.jpg");
 }
-
 
 #final {
     display: flex;
@@ -209,21 +248,21 @@ footer .container {
         padding-right: 20px;
     }
 
-    #nuestros-programas .animales {
+    #te-ayudamos .animales {
         display: flex;
         justify-content: center;
     }
     
-    #nuestros-programas p {
+    #te-ayudamos p {
         display: block;
         margin-bottom: 30px;
     }
 
-    #nuestros-programas h3 {
+    #te-ayudamos h3 {
         margin-top: 0;
     }
 
-    #nuestros-programas .carta {
+    #te-ayudamos .carta {
         padding: 15px;
     }
 
