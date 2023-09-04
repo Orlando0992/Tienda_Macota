@@ -94,7 +94,7 @@ header a:hover {
 }
 
 #hero h1 {
-    
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
     position: absolute;
     bottom:50px;
